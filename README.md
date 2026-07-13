@@ -31,6 +31,9 @@ and parameter `t` ranging from 6 to 60. We are given `xy_data.csv` — 1500 `(x,
 ```
 Domain: `6 ≤ t ≤ 60`
 
+** Link to curve ** 
+https://www.desmos.com/calculator/bhqoswmvyu
+
 **Fit quality:** mean absolute residual ≈ **2.6 × 10⁻⁶**, max residual ≈ **1.8 × 10⁻⁵** — essentially an exact recovery of the original parameters.
 
 ---
@@ -48,7 +51,7 @@ Importantly, the rows in the CSV are **not ordered by t** — there is no way to
 ---
 
 
-### Step 2  — Recognizing the Equation's Structure V
+### Step 2  — Recognizing the Equation's Structure 
 
 
 Rewriting the equations using `L(t) = t` and `S(t) = e^(M|t|)·sin(0.3t)`:
